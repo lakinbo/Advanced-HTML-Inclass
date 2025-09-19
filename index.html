@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <header>
+      <img src="" alt="Logo" />
+      <nav>
+        <a href="">Pricing</a>
+        <a href="">About</a>
+        <a href="">Affiliate</a>
+        <a href="">Blog</a>
+      </nav>
+      <div>
+        <button>Start Now</button>
+        <button>Login</button>
+      </div>
+    </header>
+
+    <main>
+      <form action="">
+        <fieldset>
+          <legend>Personal Information</legend>
+          <label for="username">Username</label>
+          <input type="text" id="username" required /><br />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" required /><br />
+
+          <label for="password">Password</label>
+          <input type="password" id="password" required />
+        </fieldset>
+
+        <fieldset>
+          <legend>Experience Level</legend>
+          <input type="radio" id="beginner" name="experience" required />
+          <label for="beginner">Beginner</label>
+
+          <input type="radio" id="intermediate" name="experience" required checked />
+          <label for="intermediate">Intermediate</label>
+
+          <input type="radio" id="advanced" name="experience" required />
+          <label for="advanced">Advanced</label>
+        </fieldset>
+
+        <fieldset>
+          <legend>Address</legend>
+          <div>
+            <label for="street">Street</label>
+            <input type="text" id="street" required />
+          </div>
+
+          <div>
+            <label for="zip">ZIP Code</label>
+            <input type="text" id="zip" required />
+          </div>
+
+          <div>
+            <label for="city">City</label>
+            <input type="text" id="city" required />
+          </div>
+
+          <div>
+            <label for="region">Region</label>
+            <select name="region" id="region" required>
+              <option value="">--Select Region</option>
+              <option value="">South</option>
+              <option value="">North</option>
+              <option value="">East</option>
+              <option value="">West</option>
+            </select>
+          </div>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+      </form>
+
+      <table>
+        <caption>
+          Calendar
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">Week #</th>
+            <th scope="col">Monday</th>
+            <th scope="col">Tuesday</th>
+            <th scope="col">Wednesday</th>
+            <th scope="col">Thursday</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th scope="row">Week 1</th>
+            <td>Present</td>
+            <td>Present</td>
+            <td>Absent</td>
+            <td>Present</td>
+          </tr>
+
+          <tr>
+            <th scope="row">Week 2</th>
+            <td>Present</td>
+            <td>Absent</td>
+            <td>Present</td>
+            <td>Present</td>
+          </tr>
+          <tr>
+            <th scope="row">Week 3</th>
+            <td>Present</td>
+            <td>Present</td>
+            <td>Absent</td>
+            <td>Present</td>
+          </tr>
+          <tr>
+            <th scope="row">Week 4</th>
+            <td>Present</td>
+            <td>Present</td>
+            <td>Absent</td>
+            <td>Absent</td>
+          </tr>
+          <tr>
+            <th>Week 5</th>
+            <td>Present</td>
+            <td>Present</td>
+            <td>Absent</td>
+            <td>Present</td>
+          </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
