@@ -1,7 +1,9 @@
 /* External Styling */
 * {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
 }
+
 label {
   color:white;
 }
@@ -26,18 +28,25 @@ legend{
 }
 
 a {
-  color: blue;
+  color: rgb(17, 68, 177);
+  padding: 10px;
+  font-size: 20px;
+  font-weight: normal;
+  text-decoration: none;
 }
 
 a:hover {
-  color: red;
-  font-size: 20px;
+  color: rgb(50, 83, 155);
+  /* font-size: 18px; */
+  font-weight: 900;
+  text-decoration: underline;
 }
 
 p {
-  display: inline;
-  border: 3px black solid;
-  font-size: 30px;
+  /* display: inline; */
+  /* border: 3px black solid; */
+  font-size: 20px;
+  margin: 20px 0px;
 }
 
 li {
@@ -64,7 +73,11 @@ body {
 }
 
 header{
-    background-color: lightgray;
+    background-color: white;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    color: rgb(126, 126, 233);
+
 }
 
 nav{
@@ -73,11 +86,45 @@ nav{
 
 }
 
-.buttons{
+button{
+    background-color: rgb(50, 83, 155);
+    padding: 5px;
+    width: 100px;
+    border-radius: 10%;
+}
+
+.nav_buttons{
     display:inline-block;
+    margin-top: 20px;
     margin-left:300px;
+    /* background-color: rgb(50, 83, 155); */
+}
+
+.action_buttons{
+    margin-top: 20px;
+    margin-left:30px;
 }
 
 table{
     color: white;
+    margin-top: 30px;
+    border: 2px solid white;
+    /* padding: 20px 20px; */
+
+}
+
+th{
+    border: 2px solid white;
+    padding: 5px 5px;
+
+}
+
+td{
+    border: 2px solid white;
+    padding: 5px 5px;
+
+}
+
+fieldset{
+    margin-top: 20px;
 }
