@@ -3,12 +3,17 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 label {
-  color: blue;
+  color:white;
 }
 
 /* Pseudo class: Styling an element at a specific state */
 label:hover {
-  background-color: grey;
+  color: grey;
+}
+
+legend{
+    color: white;
+    font-size: small;
 }
 
 #email {
@@ -71,4 +76,8 @@ nav{
 .buttons{
     display:inline-block;
     margin-left:300px;
+}
+
+table{
+    color: white;
 }
